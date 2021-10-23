@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Text</title>
+</head>
+<body>
+    <svg width="300" height="200" viewBox="0 0 300 200">
+        <defs>
+            <pattern id="slava" width="10" height="10" patternUnits="userSpaceOnUse" x="0" y="0">
+                <rect x="0" y="0" width="15" height="15" fill="#ff401a" />
+                <circle r="2" cx="5" cy="5" fill="#fff" />
+            </pattern>
+        </defs>
+        <defs>
+            <linearGradient id="gradient" x1="0%" y1="0%" x2="10%" y1="0%" spreadMethod="repeat">
+                <stop offset="50%" stop-color="#7dc4e8" stop-opacity="1" />
+                <stop offset="50%" stop-color="#b1dcf1" stop-opacity="1" />
+            </linearGradient>
+        </defs>
+        <rect x="0" y="0" width='300' height="200" fill="url(#gradient)" />
+        <text x="30" y="69" fill="#000" font-size="50" font-family="Lobster" opacity=".6">
+            the Breaking
+        </text>
+        <text x="25" y="65" fill="#f4b400" font-size="50" font-family="Lobster" stroke-width="1" stroke="#fff">
+            the Breaking
+        </text>
+        <text x="70" y="155" fill="#000" font-size="95" font-family="Lobster" opacity=".6">
+            Bad
+        </text>
+        <text x="65" y="150" font-size="95" font-family="Lobster" stroke-width="2" stroke="#fff" fill="url(#slava)">
+            Bad
+        </text>
+</body>
+
+</html>
